@@ -1734,4 +1734,10 @@ user agent stylesheet div {
      .site-footer {
           display: none;
      }
+
+     .modal {
+          top: 217px;
+          left: 59px;
+          transform: translate(-14%, 5%);
+     }
 }
