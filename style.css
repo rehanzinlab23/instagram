@@ -1383,12 +1383,13 @@ user agent stylesheet div {
 .footer-nav ul {
      list-style: none;
      padding: 0;
-     margin: 0px 0px 20px 17%;
+     margin: 0px 0px 20px -4%;
      display: flex;
      align-items: center;
      justify-content: center;
      gap: 16px;
      text-align: center;
+     flex-wrap: wrap;
 }
 
 .footer-nav li {
@@ -1615,8 +1616,7 @@ user agent stylesheet div {
      }
 
      .follow-section,
-     .copyrights,
-     .copyright {
+     .copyrights {
           display: none;
      }
 
@@ -1668,10 +1668,6 @@ user agent stylesheet div {
      .story-section::scroll-button(left) {
           display: none;
      }
-
-     .site-footer {
-          display: none;
-     }
 }
 
 @media (max-width: 480px) {
@@ -1699,10 +1695,6 @@ user agent stylesheet div {
      .story-section::scroll-button(left) {
           display: none;
      }
-
-     .site-footer {
-          display: none;
-     }
 }
 
 @media (max-width: 390px) {
@@ -1728,10 +1720,6 @@ user agent stylesheet div {
 
      .story-section::scroll-button(right),
      .story-section::scroll-button(left) {
-          display: none;
-     }
-
-     .site-footer {
           display: none;
      }
 
