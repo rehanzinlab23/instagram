@@ -546,17 +546,7 @@ nav {
 
 .nav-hidden {
      display: none;
-}
-
-.nav-hidden i {
-     font-size: 1.4rem;
-     cursor: pointer;
-     color: var(--font-color);
-     transition: all 0.2s ease;
-}
-
-.nav-hidden i:hover {
-     color: var(--secondary-font-color);
+     background-color: var(--background-color);
 }
 
 .nav-hidden-logo {

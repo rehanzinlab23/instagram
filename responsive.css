@@ -63,7 +63,6 @@
           align-items: center;
           justify-content: space-between;
           padding: 0 12px;
-          background: #000;
           border-bottom: 1px solid rgba(76, 75, 75, 0.7);
           z-index: 1000;
      }
