@@ -52,9 +52,14 @@ const postImages = document.querySelectorAll('.post-main-image');
 
 // Login Page
 
-  if (localStorage.getItem("loggedIn") !== "true") {
-    window.location.href = "insta-login/insta-login.html";
+document.addEventListener("DOMContentLoaded", () => {
+  const loggedIn = localStorage.getItem("loggedIn");
+
+  if (loggedIn !== "true") {
+    window.location.replace("insta-login/insta-login.html");
   }
+});
+
 
 // Heart Overlay Effect
 

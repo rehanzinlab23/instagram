@@ -162,8 +162,15 @@
           </div>
      </div>
 
-
      <script src="insta-login.js"></script>
+
+     <script>
+          // If already logged in, send to home
+          if (localStorage.getItem("loggedIn") === "true") {
+               window.location.replace("../index.html");
+          }
+     </script>
+
 </body>
 
 </html>
