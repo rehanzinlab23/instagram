@@ -8,6 +8,7 @@
      --last-btn: #fff;
      --ig-stroke: 85, 85, 85;
      --ig-hover-overlay: 0, 0, 0, .05;
+     --modal-bg-color: rgb(255, 255, 255);
 }
 
 .light {
@@ -25,6 +26,7 @@
      --last-btn: rgb(33, 35, 40);
      --modal-background: rgb(38, 38, 38);
      --ig-hover-overlay: 255, 255, 255, .1;
+     --modal-bg-color: rgb(26, 26, 26);
 }
 
 * {
@@ -643,7 +645,7 @@ nav {
      max-width: 370px;
      width: 100%;
      padding: 6px;
-     background: var(--background-color);
+     background: var(--modal-bg-color);
      color: var(--font-color);
      border-radius: 20px;
      overflow: hidden;
@@ -689,7 +691,7 @@ nav {
      transform: translate(-60%, -46%);
      max-width: 600px;
      width: 100%;
-     background: var(--background-color);
+     background: var(--modal-bg-color);
      color: var(--font-color);
      border-radius: 18px;
      overflow: hidden;

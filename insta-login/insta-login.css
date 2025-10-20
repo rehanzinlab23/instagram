@@ -289,8 +289,8 @@ body {
      display: flex;
      align-items: center;
      justify-content: space-between;
-     background: linear-gradient(180deg, #ffefef, #ffdede);
-     border-left: 4px solid #ff4d4f;
+     background: linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+     border-left: 4px solid #fd1d1d;
      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
      padding: 14px 16px;
      border-radius: 12px;
@@ -299,7 +299,7 @@ body {
 
 #error-msg {
      font-size: 14px;
-     color: #431111;
+     color: #fff;
      font-weight: 600;
      line-height: 1.1;
      margin-right: 8px;
@@ -311,13 +311,9 @@ body {
      font-size: 20px;
      line-height: 1;
      cursor: pointer;
-     color: #6b0b0b;
+     color: #fff;
      padding: 4px;
      border-radius: 8px;
-}
-
-#error-close:hover {
-     background: rgba(0, 0, 0, 0.03);
 }
 
 /* RESPONSIVE */
