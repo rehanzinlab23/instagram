@@ -1,3 +1,5 @@
+
+
 // Elements
 const passwordInput = document.getElementById("password");
 const togglePassword = document.getElementById("togglePassword");
@@ -63,12 +65,13 @@ function validateLogin(event) {
   const userFound = users.find(
     (user) => user.email === username && user.password === password
   );
+  console.log(userFound);
 
   if (userFound) {
     localStorage.setItem("loggedIn", "true");
     localStorage.setItem("currentUser", username);
 
-    
+
     window.location.href = "../index.html";
 
   } else {
@@ -77,7 +80,7 @@ function validateLogin(event) {
 
   return false;
 }
-
+loginBtn.addEventListener("click", validateLogin);
 const toast = document.getElementById("error-toast");
 const toastMsg = document.getElementById("error-msg");
 const toastClose = document.getElementById("error-close");

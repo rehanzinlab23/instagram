@@ -7,7 +7,7 @@
      <title>Instagram</title>
      <link rel="shortcut icon" href="/img/instagram.png" type="image/x-icon">
      <link rel="stylesheet" href="insta-login.css" />
-     <script src="insta-login.js" defer></script>
+
 
 </head>
 
@@ -29,43 +29,43 @@
                          </svg>
                     </div>
 
-                    <form class="login-form" onsubmit="event.preventDefault(); window.location.href='../index.html';">
+                    <form class="login-form"">
 
-                         <div class="input-box">
-                              <input type="text" placeholder="Phone number, username, or email" required />
-                         </div>
+                         <div class=" input-box">
+                         <input type="text" placeholder="Phone number, username, or email" required />
+               </div>
 
-                         <div class="input-box password-box">
-                              <input type="password" id="password" placeholder="Password" required />
-                              <button type="button" id="togglePassword" class="toggle-password">Show</button>
-                         </div>
+               <div class="input-box password-box">
+                    <input type="password" id="password" placeholder="Password" required />
+                    <button type="button" id="togglePassword" class="toggle-password">Show</button>
+               </div>
 
-                         <button type="submit" class="login-btn">Log in</button>
+               <button type="submit" class="login-btn">Log in</button>
 
-                         <div class="divider"><span>OR</span></div>
+               <div class="divider"><span>OR</span></div>
 
-                         <button type="button" class="fb-btn"><svg aria-label="Log in with Facebook"
-                                   class="x1lliihq x1n2onr6 x173jzuc" fill="currentColor" height="20" role="img"
-                                   viewBox="0 0 16 16" width="20">
-                                   <title>Log in with Facebook</title>
-                                   <g clip-path="url(#a)">
-                                        <path d="M8 0C3.6 0 0 3.6 0 8c0 4 2.9 7.3 6.8 7.9v-5.6h-2V8h2V6.2c0-2 1.2-3.1 3-3.1.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.3V8h2.2l-.4 2.3H9.2v5.6C13.1 15.3 16 12 16 8c0-4.4-3.6-8-8-8Z"
-                                             fill="currentColor"></path>
-                                   </g>
-                                   <defs>
-                                        <clipPath id="a">
-                                             <rect fill="currentColor" height="16" width="16"></rect>
-                                        </clipPath>
-                                   </defs>
-                              </svg>Log in with Facebook</button>
-                         <a href="#" class="forgot">Forgot password?</a>
-                    </form>
+               <button type="button" class="fb-btn"><svg aria-label="Log in with Facebook"
+                         class="x1lliihq x1n2onr6 x173jzuc" fill="currentColor" height="20" role="img"
+                         viewBox="0 0 16 16" width="20">
+                         <title>Log in with Facebook</title>
+                         <g clip-path="url(#a)">
+                              <path d="M8 0C3.6 0 0 3.6 0 8c0 4 2.9 7.3 6.8 7.9v-5.6h-2V8h2V6.2c0-2 1.2-3.1 3-3.1.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.3V8h2.2l-.4 2.3H9.2v5.6C13.1 15.3 16 12 16 8c0-4.4-3.6-8-8-8Z"
+                                   fill="currentColor"></path>
+                         </g>
+                         <defs>
+                              <clipPath id="a">
+                                   <rect fill="currentColor" height="16" width="16"></rect>
+                              </clipPath>
+                         </defs>
+                    </svg>Log in with Facebook</button>
+               <a href="#" class="forgot">Forgot password?</a>
+               </form>
 
-                    <div class="signup-box">
-                         Don’t have an account? <a href="#"> Sign up</a>
-                    </div>
+               <div class="signup-box">
+                    Don’t have an account? <a href="#"> Sign up</a>
                </div>
           </div>
+     </div>
      </div>
 
      <!-- Footer -->
@@ -166,9 +166,9 @@
 
      <script>
           // If already logged in, send to home
-          if (localStorage.getItem("loggedIn") === "true") {
-               window.location.replace("../index.html");
-          }
+          // if (localStorage.getItem("loggedIn") === "true") {
+          //      window.location.replace("../index.html");
+          // }
      </script>
 
 </body>
