@@ -67,6 +67,8 @@ function validateLogin(event) {
   if (userFound) {
     localStorage.setItem("loggedIn", "true");
     localStorage.setItem("currentUser", username);
+
+    
     window.location.href = "../index.html";
 
   } else {
