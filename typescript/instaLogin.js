@@ -49,6 +49,7 @@ function validateLogin(event) {
         { email: "abbas@gmail.com", password: "h&hbirds26214" },
         { email: "aiza@gmail.com", password: "papakipari2123" },
         { email: "faryal@gmail.com", password: "ankhoomei1312" },
+        { email: "zuniara@gmail.com", password: "zizupaglu0700" },
     ];
     const username = document.querySelector('input[type="text"]').value.trim();
     const password = document.getElementById("password").value.trim();

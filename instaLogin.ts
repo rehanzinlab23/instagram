@@ -61,6 +61,7 @@ function validateLogin(event: MouseEvent) {
     { email: "abbas@gmail.com", password: "h&hbirds26214" },
     { email: "aiza@gmail.com", password: "papakipari2123" },
     { email: "faryal@gmail.com", password: "ankhoomei1312" },
+    { email: "zuniara@gmail.com", password: "zizupaglu0700" },
   ];
 
   const username = (
